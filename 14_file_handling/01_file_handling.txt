@@ -1,0 +1,12 @@
+
+File Handling: allows programs to store, read, and manage data saved on the computer - such as notes, logs, student records, or CSV files.
+
+Here are different methods for opening and manipulating the problem
+    1. "r" - Read: Default value. Opens a file for reading, throws error if the file does not exist
+    2. "a" - Append: Opens a file for appending, creates the file if it does not exist
+    3. "w" - Write: Opens a file for writing, creates the file if it does not exist
+    4. "x" - Create: Creates the specified file, returns a error if the file exists
+
+Additional methods:
+    "t" - Text: Default value. (Text Mode)
+    "b" - Binary: Binary Mode
